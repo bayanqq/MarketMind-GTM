@@ -1,0 +1,32 @@
+# ── Secrets ──────────────────────────────────────────────────────────
+.env
+*.env
+*.env.*
+
+# ── ChromaDB local vector store (contains embeddings — do not commit) ──
+chroma_db/
+./chroma_db/
+**/.chroma/
+
+# ── Python cache ─────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.pyc
+
+# ── Virtual environments ──────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Build / dist ──────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/

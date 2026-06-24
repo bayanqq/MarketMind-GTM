@@ -1,0 +1,23 @@
+# Core AI & APIs
+openai>=1.30.0
+tavily-python>=0.3.0
+pydantic>=2.7.0
+
+# LangChain orchestration layer (optional — graceful fallback if absent)
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langsmith>=0.2.0
+
+# PDF handling
+pypdf>=4.2.0
+fpdf2>=2.7.9
+
+# Vector database
+chromadb>=0.5.0
+
+# Environment & utilities
+python-dotenv>=1.0.0
+tiktoken>=0.7.0
+streamlit>=1.35.0
